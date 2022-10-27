@@ -1,0 +1,104 @@
+#mainscreen h3 {
+    color: #626CFF;
+    letter-spacing: 0.03em;
+    line-height: 35px;
+}
+
+#mainscreen h1 {
+    letter-spacing: 0.03em;
+    font-size: 40px;
+    line-height: 54px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 52px;
+}
+
+#mainscreen span {
+    color: #FF3471;
+}
+
+#mainscreen {
+    height: 1100px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#mainscreen .container {
+    padding-top: 180px !important;
+}
+
+#mainscreen .background {
+    position: absolute;
+    overflow: hidden;
+    transform: rotate(6.5deg);
+    width: 115%;
+    height: 1100px;
+    top: -120px;
+    left: -70px;
+    z-index: -1;
+    background: radial-gradient(78.62% 100.95% at 71.12% 52.82%, #39058B 5%, #270261 42%, #0F0335 100%);
+}
+
+
+#mainscreen .start {
+    margin-right: 51px;
+}
+
+
+.prlx {
+    position: absolute;
+    top: 150px;
+    right: 0;
+}
+
+
+#mainscreen .background .container {
+    position: relative;
+}
+
+
+.offerblock {
+    color: #6959C9;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+    display: list-item;
+}
+
+
+.offerblock::marker {
+    color: #FF3471;
+    font-size: 2rem;
+    text-shadow: 0px 0px 10px red;
+}
+
+
+.offerblock span {
+    color: #6959C9 !important;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.offercontainer {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 47px;
+}
+
+
+.offercontainer:last-child {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.offers {
+    width: 40%;
+    margin-left: 105px;
+    margin-top: 68px;
+}
+
+

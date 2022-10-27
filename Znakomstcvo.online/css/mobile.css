@@ -1,0 +1,244 @@
+@media screen and (max-width: 769px) {
+    .container {
+        width: 375px;
+        padding: 0;
+    }
+
+    #mainscreen h1 {
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 4px;
+        margin-bottom: 25px;
+        max-width: 270px;
+    }
+
+    #mainscreen h3 {
+        line-height: 18px;
+        font-size: 14px;
+        max-width: 200px;
+    }
+
+    #mainscreen br {
+        display: none;
+    }
+
+    #mainscreen .offerblock br {
+        display: block;
+    }
+
+    #mainscreen span {
+        display: block;
+    }
+
+    .offerblock span {
+    font-weight: 400;
+    font-size: 13px;
+ }
+
+    .offerblock {
+        font-size: 20px;
+    }
+
+    .offers {
+    width: 75%;
+    margin-left: 20%;
+    }
+
+
+    #mainscreen {
+    height: 760px;
+    }
+
+
+    .registration {
+        font-size: 15px;
+        line-height: 18px;
+        padding: 15px 20px;
+    }
+
+    #mainscreen .start {
+        margin-right: 13px;
+    }
+
+    #mainscreen .container {
+        padding-top: 260px !important;
+    }
+
+    #mainscreen .background {
+        width: 120%;
+        height: 650px;
+        top: -120px;
+        left: -25px;
+    }
+
+    .prlx {
+        position: absolute;
+        top: -23px;
+        right: -222px;
+        transform: scale(0.6);
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+
+    #erlscreen {
+        display: block;
+    }
+
+    #erlscreen .block {
+        width: 320px;
+        height: 353px;
+        margin: auto;
+        margin-top: 210px;
+    }
+
+    .romb {
+        height: 260px;
+        width: 260px;
+        left: 30px;
+        top: -153px;
+    }
+
+    #erlscreen img {
+        width: 217px;
+        margin-top: -170px;
+    }
+
+    #erlscreen .block:last-child img {
+        width: 321px;
+        margin-top: 0;
+    }
+
+    #erlscreen .texts {
+        margin-top: 0;
+    }
+
+    #erlscreen .texts h1 {
+        font-size: 23px;
+    }
+
+    #thirdscreen .container {
+        flex-direction: column;
+    }
+
+    .text h6 {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .text h1 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        margin-bottom: 25px;
+    }
+
+    .text p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 16px;
+    }
+
+    .text .money {
+        font-size: 40px;
+        font-weight: bolder;
+        letter-spacing: 0.03em;
+        line-height: 48px;
+    }
+
+    .man {
+        width: 367px;
+    }
+
+    #metodscreen .pays {
+        flex-direction: column;
+    }
+
+    #metodscreen .metods {
+        flex-direction: column;
+    }
+
+    #metodscreen {
+        margin-left: 0px;
+    }
+
+    .metods h5 {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 16px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .metods h6 {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 18px;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .start {
+        font-size: 15px;
+        line-height: 18px;
+        padding: 15px 12px;
+    }
+
+    .metods h2 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 46px;
+        text-transform: uppercase;
+    }
+
+    #metodscreen h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 46px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .start:last-child {
+        margin-left: 72px;
+    }
+
+    #panellscreen {
+        text-align: center;
+        height: 116vh;
+        background: #4e64ac;
+        background-image: url(../img/monitor.png);
+        background-image: url(../img/monitor.png), linear-gradient(60deg, #5868bb 20%, #4961a4);
+        background-repeat: no-repeat;
+        background-size: 300%;
+        background-position: 28% 117%;
+        padding-top: 40px;
+    }
+
+    #panellscreen h1 {
+        font-size: 52px;
+    }
+
+    #panellscreen h3 {
+        font-size: 30px;
+    }
+
+    .phonepng {
+        overflow: hidden;
+    }
+
+    header div {
+        display: none;
+    }
+
+}

@@ -1,0 +1,85 @@
+
+
+
+#metodscreen h1 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 30px;
+	color: #757575;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	margin-top: 146px;
+
+	display: flex;
+	justify-content: center;
+}
+
+
+.metods h4 {
+	color: #9F9F9F;
+	margin-top: 53px;
+	margin-left: 100px;
+}
+
+
+.metods h2 {
+	color: #2D036A;
+	margin-left: 100px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	margin-top: 63px;
+	line-height: 35px;
+	text-transform: uppercase;
+}
+
+
+.metods h5 {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 26px;
+	line-height: 19px;
+	color: #2D036A;
+	margin-left: 130px;
+	margin-top: 48px;
+}
+
+
+.metods h6 {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 22px;
+	color: #5D5A63;
+	margin-top: 25px;
+	margin-left: 100px
+}
+
+
+.start:last-child {
+	margin-top: 67px;
+	margin-left: 100px;
+}
+
+.pays {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 35px;
+}
+
+
+
+.paysimage:nth-child(n+2):not(:last-child) {
+	mix-blend-mode: luminosity;
+	opacity: 0.54;
+}
+
+
+
+.metods  {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 172px;
+} 

@@ -1,0 +1,71 @@
+#erlscreen {
+    display: flex;
+    justify-content: space-between;
+    z-index: -2;
+    position: relative;
+}
+
+
+#erlscreen .block {
+    margin: 30px;
+    width: 486px;
+    height: 498px;
+    background: #F1F3FE;
+    position: relative;
+    margin-top: 110px;
+}
+
+
+.romb {
+    position: absolute;
+    transform: rotate(45deg);
+    width: 390px;
+    height: 390px;
+    left: 46px;
+    top: -225px;
+    background: #F1F3FE;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+#erlscreen .block:last-child {
+    margin-top: 320px;
+    height: 430px;
+}
+
+#erlscreen .texts h1 {
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
+    letter-spacing: 0.03em;
+    color: #2D036A;
+    text-transform: uppercase;
+    margin-top: 77px;
+    margin-bottom: 13px;
+
+}
+
+#erlscreen .texts p {
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #5D5A63;
+    width: 273px;
+}
+
+#erlscreen .texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -145px;
+}
+
+
+#erlscreen .block:last-child .texts {
+    margin-top: -48px;
+}

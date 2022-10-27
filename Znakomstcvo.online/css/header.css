@@ -1,0 +1,31 @@
+header .container {
+    margin-top: 24px !important;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header {
+    width: 100%;
+    position: absolute;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+
+header span {
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 14px;
+    color: #fff;
+}
+
+
+

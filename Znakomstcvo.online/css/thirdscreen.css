@@ -1,0 +1,91 @@
+#thirdscreen {
+	background: #2D036A;
+	width: 100%;
+}
+
+
+.text {
+color: #FFFFFF;
+letter-spacing: 0.03em;
+}
+
+
+
+.text h1 {
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 61px;
+}
+
+
+
+
+.text p {
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 19px;
+}
+
+
+.text .button {
+ 	border: 1px solid #FFFFFF;
+	border-radius: 20px;
+    cursor: pointer;
+    font-size: 50px; 
+    margin-top: 50px;
+    background: none;
+/*    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-right: 	55px;
+    padding-left: 55px;*/
+    padding: 20px 60px 25px;
+    display: inline-block;
+}
+
+
+ .text .money {
+	color: #FF3471;
+	font-style: normal;
+	font-size: 30px;
+	font-weight: bolder;
+	letter-spacing: 0.03em;
+}
+
+
+
+
+.text h6 {
+font-style: normal;
+font-weight: 200;
+font-size: 18px;
+line-height: 30px;
+}
+
+
+.text {
+	text-align: center;
+	padding: 79px 0 104px;
+}
+
+
+
+
+.man {
+height: auto;	
+width: 677px;
+margin-top: 36px;
+margin-bottom: -64px;
+}
+
+
+
+#thirdscreen .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+
